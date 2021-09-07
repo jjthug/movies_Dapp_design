@@ -2,18 +2,21 @@
 
 Movie dApp
 
-Each movie will have a unique moveid_id token with its name and symbol based on ERC20 standard
+Each movie will have a unique moveid_id token with its name and symbol based on **ERC20 standard**
 
 Investors can buy and trade with the Movie_id token
 
-Functions: 
+**Functions: **
 
-create_movie: the msg.sender can create a unique token with (name, symbol) and the total supply will be assigned to him
+*create_movie: the msg.sender can create a unique token with (name, symbol) and the total supply will be assigned to him
 
-invest : stakeholders can buy/ trade movie tokens ( either through exchange or token swap protocols)
+*invest : stakeholders can buy/ trade movie tokens ( either through exchange or token swap protocols)
  
-buy_tickets : spectators will buy a specified amount of tokens to access the movie contents, and this will lead to a rally in the token price (by requiring a higher value or higher number of other tokens to purchase the movie token)
-				similarly the advertisers will have to buy the tokens at a specified rate to take part in advertising in the movie
+*buy_tickets : spectators will buy a specified amount of tokens to access the movie contents, and this will lead to a rally in the token price (by requiring a higher value or higher number of other tokens to purchase the movie token)
+				
+*advertiserPAyment:similarly the advertisers will have to buy the tokens at a specified rate to take part in advertising in the movie
+				
+				
 
 Producers, directors, actors can be provided the movie tokens upfront of after release, could be a specified amount or a percentage of tokens, as defined by the movie owner
 
