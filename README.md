@@ -25,6 +25,7 @@ Movie struct with movie name, movie token_name, owner, movieId
 				
 				
 **##Usage specification:**
+
 Producers, directors, actors can be provided the movie tokens upfront of after release, could be a specified amount or a percentage of tokens, as defined by the movie owner
 
 Spectatots will have to pay a fees (in movie tokens) to access/download the movie.
