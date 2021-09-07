@@ -6,12 +6,12 @@ Each movie will have a unique moveid_id token with its name and symbol based on 
 
 Investors can buy and trade with the Movie_id token
 
-##**Storage:**
+**##Storage:**
 movie_id_tracker : increments each time a movie is created and will be assigned as the movieId on this dApp
 mapping (address => bool) to store if advertiser has paid for advertising their content on the movie (of movieId).
 Movie struct with movie name, movie token_name, owner, movieId 
 
-##**Functions:**
+**##Functions:**
 
 * create_movie: the msg.sender can create a unique token with (name, symbol) and the total supply will be assigned to him (the movie token can be created on a separate contract nheriting from ERC20 and its constructor will be called with the name , symbol, withdrawal limit, withdrawal time period limit )
 
@@ -24,7 +24,7 @@ Movie struct with movie name, movie token_name, owner, movieId
 * assign tokens: The movie owner can assign a percentage or fixed amount of tokens to actors, producers and directors
 				
 				
-##**Usage specification:**
+**##Usage specification:**
 Producers, directors, actors can be provided the movie tokens upfront of after release, could be a specified amount or a percentage of tokens, as defined by the movie owner
 
 Spectatots will have to pay a fees (in movie tokens) to access/download the movie.
