@@ -7,6 +7,7 @@ Each movie will have a unique moveid_id token with its name and symbol based on 
 Investors can buy and trade with the Movie_id token
 
 **##Storage:**
+
 movie_id_tracker : increments each time a movie is created and will be assigned as the movieId on this dApp
 mapping (address => bool) to store if advertiser has paid for advertising their content on the movie (of movieId).
 Movie struct with movie name, movie token_name, owner, movieId 
