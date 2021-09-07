@@ -8,13 +8,13 @@ Investors can buy and trade with the Movie_id token
 
 **Functions: **
 
-*create_movie: the msg.sender can create a unique token with (name, symbol) and the total supply will be assigned to him
+* create_movie: the msg.sender can create a unique token with (name, symbol) and the total supply will be assigned to him
 
-*invest : stakeholders can buy/ trade movie tokens ( either through exchange or token swap protocols)
+* invest : stakeholders can buy/ trade movie tokens ( either through exchange or token swap protocols)
  
-*buy_tickets : spectators will buy a specified amount of tokens to access the movie contents, and this will lead to a rally in the token price (by requiring a higher value or higher number of other tokens to purchase the movie token)
+* buy_tickets : spectators will buy a specified amount of tokens to access the movie contents, and this will lead to a rally in the token price (by requiring a higher value or higher number of other tokens to purchase the movie token)
 				
-*advertiserPAyment:similarly the advertisers will have to buy the tokens at a specified rate to take part in advertising in the movie
+* advertiserPAyment:similarly the advertisers will have to buy the tokens at a specified rate to take part in advertising in the movie
 				
 				
 
